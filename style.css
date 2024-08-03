@@ -1,0 +1,100 @@
+nav{
+    margin-left: 300px;
+}
+nav a{
+    text-decoration: none;
+    /* кава */
+
+width: 54px;
+height: 29px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #126AB4;
+padding: 20px;
+
+
+}
+nav a:hover{
+background-color:#126AB4 ;
+color: #ffffff;
+border-radius: 20px;
+}
+h1{
+
+    /* Базова кава */
+
+position: absolute;
+width: 260px;
+height: 16px;
+left: 300px;
+top: 72px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #265C8A;
+
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+article p{
+margin-left:50px;
+font-size: 25px;
+color: #126AB4;
+
+}
+.button{
+
+    /* Ellipse 1 */
+
+
+width: 120px;
+height: 39px;
+
+background: #126AB4;
+text-decoration: none;
+font-size: 25px;
+color:white ;
+background-color: #265C8A;
+padding: 5px;
+border-radius: 20px;
+}
+.button:hover{
+background-color: #3CA6D5;
+color: #ffffff;
+
+}
+.sectionimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cap,.cap2,.cap3{
+    perspective: 600px;
+    transition: 1s;
+}
+.cap3:hover{
+    transform: rotateZ(180deg);
+}
+.cap:hover{
+    transform: rotateZ(180deg);
+}
+.cap2:hover{
+    transform: rotateZ(180deg);
+}
+footer{
+    margin-top: 50px;
+}
